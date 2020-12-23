@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 // ログインコントローラへルーティング
 Route::get('/login','\App\Http\Controllers\LoginController@index');
 

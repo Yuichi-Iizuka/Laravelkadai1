@@ -9,6 +9,7 @@
 
 @section('content')
 <!-- ユーザーの登録情報を入力するフォーム -->
+
 <form method="POST" action="#">
   @csrf 
   <p>UserName:<input type="text" name="username"></p><br>

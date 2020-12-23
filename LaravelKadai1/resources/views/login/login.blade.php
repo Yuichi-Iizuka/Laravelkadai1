@@ -7,6 +7,7 @@
 <a href="{{action('\App\Http\Controllers\RegisterController@index')}}">ユーザ登録</a>
 @endsection
 
+
 @section('content')
 <!-- ログイン情報入力フォーム -->
 <form method="POST" action="#">
