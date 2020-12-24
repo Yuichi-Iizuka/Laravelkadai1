@@ -17,8 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// ログインコントローラへルーティング
-Route::get('/login','\App\Http\Controllers\LoginController@index');
 
 // ログインコントローラへルーティング
-Route::get('register','\App\Http\Controllers\RegisterController@index');
+Route::get('/login','LoginController@index');
+
+// ユーザー登録コントローラへルーティング
+Route::get('register','RegisterController@index');
