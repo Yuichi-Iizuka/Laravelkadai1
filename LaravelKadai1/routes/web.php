@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 
 // ログインコントローラへルーティング
-Route::get('/login','\App\Http\Controllers\LoginController@index');
+Route::get('/login','LoginController@index');
 
-// ログインコントローラへルーティング
-Route::get('register','\App\Http\Controllers\RegisterController@index');
+// ユーザー登録コントローラへルーティング
+Route::get('register','RegisterController@index');

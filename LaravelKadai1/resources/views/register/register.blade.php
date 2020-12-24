@@ -2,10 +2,8 @@
 
 @section('title','ユーザー登録')
 
-<!-- ログイン画面に遷移するボタン -->
-@section('menubar')
-<a href="{{action('\App\Http\Controllers\LoginController@index')}}">ログイン</a>
-@endsection
+
+
 
 @section('content')
 <!-- ユーザーの登録情報を入力するフォーム -->
@@ -18,9 +16,4 @@
   <p><input type="submit" value="登録"></p>
 
 </form>
-@endsection
-
-
-@section('footer')
-
 @endsection
